@@ -47,7 +47,7 @@ public class MainActivity extends ActionBarActivity {
 
         if(randomInt == 0)
         {
-           String message =("test");
+           String message =("test 0");
            intent.putExtra(EXTRA_MESSAGE, message);
            startActivity(intent);
         }
